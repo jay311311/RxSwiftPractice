@@ -12,8 +12,8 @@ Observable.from(sequeence)
     .subscribe{print("skip : \($0)")}
     .disposed(by: disposeBag)
 
-// false를 return 한이후에는 모든 요소 방출
-// 필터와 달리 한번만 필터한 이후 이후 요소 방충
+// true 면 무시 , false를 return 하면 이후 모든 요소의 next 이벤트 방툴
+// 필터와 달리 한번만 false를 return 한 이후 이후 요소를 판단하지 않는다
 Observable.from(sequeence)
     .skipWhile{ !$0.isMultiple(of: 2)}
     .subscribe{print("skipWhile : \($0)")}
@@ -35,3 +35,14 @@ subject.onNext(1)
 trriger.onNext(5)
 
 subject.onNext(10)
+
+
+// skipDuration : 지정한 시간동안 이벤트 방출을 무시하는 연산자
+// 밀리세컨드 단위로 움직이기때문에 오차자 있을수 있음
+
+let o =  Observable<Int>.interval(.seconds(1), scheduler: MainScheduler.instance)
+
+o.take(10)
+    .skip(.seconds(4), scheduler: MainScheduler.instance)
+    .subscribe{print("skipDuration : \($0)")}
+    .disposed(by: disposeBag)
