@@ -63,3 +63,13 @@ subject3.takeLast(2)
 subject3.onNext(3)
 // completed 되면  버퍼에 갖고있던 요소 방출
 subject3.onCompleted()
+
+
+//takeFor :  지정한 시간동안 이벤트 방출
+// 시간 관련한 연산자는 오차범위 있을수 있음
+
+let o =  Observable<Int>.interval(.seconds(1), scheduler: MainScheduler.instance)
+
+o.take(for: .seconds(3), scheduler: MainScheduler.instance)
+    .subscribe{print("takeFor : \($0)")}
+    .disposed(by: disposeBag)

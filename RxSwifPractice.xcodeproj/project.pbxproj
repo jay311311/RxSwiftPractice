@@ -30,6 +30,8 @@
 		670C038528996EAC00C41823 /* filter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = filter.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		670C0386289970EF00C41823 /* skipOperator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = skipOperator.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		670C0387289ABAC800C41823 /* take.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = take.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		670C0388289ACC5D00C41823 /* single.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = single.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		670C0389289C09C500C41823 /* distinctUntilChanged.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = distinctUntilChanged.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B73D017FDE275417CA6377DD /* Pods_RxSwifPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwifPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEECE7FEC9E7345865984877 /* Pods-RxSwifPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwifPractice.release.xcconfig"; path = "Target Support Files/Pods-RxSwifPractice/Pods-RxSwifPractice.release.xcconfig"; sourceTree = "<group>"; };
 		F232959D22D65CF26C98442A /* Pods-RxSwifPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwifPractice.debug.xcconfig"; path = "Target Support Files/Pods-RxSwifPractice/Pods-RxSwifPractice.debug.xcconfig"; sourceTree = "<group>"; };
@@ -59,6 +61,8 @@
 		670C036328996A0200C41823 = {
 			isa = PBXGroup;
 			children = (
+				670C0389289C09C500C41823 /* distinctUntilChanged.playground */,
+				670C0388289ACC5D00C41823 /* single.playground */,
 				670C0387289ABAC800C41823 /* take.playground */,
 				670C0386289970EF00C41823 /* skipOperator.playground */,
 				670C038528996EAC00C41823 /* filter.playground */,
