@@ -42,6 +42,12 @@
 		670C039128A3EB2C00C41823 /* StartWith.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = StartWith.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		670C039228A3F25400C41823 /* concat.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = concat.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		670C039328A3F40600C41823 /* Merge.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Merge.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		670C039428A3FD6E00C41823 /* CombineLatest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CombineLatest.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		670C039528A4062A00C41823 /* zip.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = zip.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		670C039628A408A800C41823 /* wifhLatestFrom.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = wifhLatestFrom.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		670C039728A79F1B00C41823 /* sample.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = sample.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		670C039828A7A66700C41823 /* switchLatest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = switchLatest.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		670C039928A7ADEE00C41823 /* reduce.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = reduce.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B73D017FDE275417CA6377DD /* Pods_RxSwifPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwifPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEECE7FEC9E7345865984877 /* Pods-RxSwifPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwifPractice.release.xcconfig"; path = "Target Support Files/Pods-RxSwifPractice/Pods-RxSwifPractice.release.xcconfig"; sourceTree = "<group>"; };
 		F232959D22D65CF26C98442A /* Pods-RxSwifPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwifPractice.debug.xcconfig"; path = "Target Support Files/Pods-RxSwifPractice/Pods-RxSwifPractice.debug.xcconfig"; sourceTree = "<group>"; };
@@ -71,6 +77,12 @@
 		670C036328996A0200C41823 = {
 			isa = PBXGroup;
 			children = (
+				670C039928A7ADEE00C41823 /* reduce.playground */,
+				670C039828A7A66700C41823 /* switchLatest.playground */,
+				670C039728A79F1B00C41823 /* sample.playground */,
+				670C039628A408A800C41823 /* wifhLatestFrom.playground */,
+				670C039528A4062A00C41823 /* zip.playground */,
+				670C039428A3FD6E00C41823 /* CombineLatest.playground */,
 				670C039328A3F40600C41823 /* Merge.playground */,
 				670C039228A3F25400C41823 /* concat.playground */,
 				670C039128A3EB2C00C41823 /* StartWith.playground */,
